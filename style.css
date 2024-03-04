@@ -10,6 +10,7 @@ body {
     justify-content: left;
 }
 
+
 h1 {
     color: lightpink;
     font-family: "HoloLens MDL2 Assets";
@@ -46,8 +47,4 @@ a:hover {
 }
 a:active {
     color: burlywood;
-}
-
-12345 {
-    color: blue;
 }
