@@ -1,0 +1,53 @@
+body {
+    background-color: darkslategrey;
+    color: lightgray;
+    margin-top: 30px;
+    margin-left: 30px;
+    margin-right: 30px;
+    margin-bottom: 30px;
+    /*padding-top: 10px;*/
+    font-family: "Century Gothic";
+    justify-content: left;
+}
+
+h1 {
+    color: lightpink;
+    font-family: "HoloLens MDL2 Assets";
+}
+
+h2 {
+    color: beige;
+}
+
+h3 {
+    color: indianred;
+}
+
+h4 {
+    color: azure;
+}
+
+h5 {
+    color: fuchsia;
+}
+
+h6 {
+    color: darkviolet;
+}
+
+a:link {
+    color: burlywood;
+}
+a:visited {
+    color: burlywood;
+}
+a:hover {
+    color: blueviolet;
+}
+a:active {
+    color: burlywood;
+}
+
+12345 {
+    color: blue;
+}
