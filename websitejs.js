@@ -13,3 +13,7 @@ function imageChanger() {
 function blankRedirect(){
     window.location.href = "subPageBlank";
 }
+
+function changeStyle() {
+
+}
