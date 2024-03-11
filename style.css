@@ -1,4 +1,4 @@
-body {
+.body {
     background-color: darkslategrey;
     color: lightgray;
     /*padding-top: 10px;*/
@@ -12,6 +12,9 @@ body {
     border-color: darkgray;
 }
 
+#navBarBody {
+
+}
 /* testing a comment */
 
 h1 {
