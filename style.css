@@ -87,5 +87,38 @@ button:focus {
     background-color: azure;
 }
 
+#navBar {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    color: darkgray;
+    overflow: hidden;
+    background-color: darkgray;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    border: 1px solid #e7e7e7;
+
+}
+
+.navBarEle {
+    display: inline;
+    float: left;
+    display: block;
+    padding: 8px;
+    background-color: lightgray;
+    color: black;
+
+}
+
+.navBarEle a:hover {
+    background-color: darkgray;
+    color: pink;
+}
+
+.active {
+    background-color: black;
+}
+
 
 
