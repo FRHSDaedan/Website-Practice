@@ -34,3 +34,5 @@ function showData() {
     let elem2 = document.getElementById("otherButton");
     if(elem2.innerHTML === "Show Data") elem2.innerHTML = ageName2;
 }
+
+
