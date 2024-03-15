@@ -60,10 +60,6 @@ img {
     length: 400px;
 }
 
-ul{
-    color: coral;
-    font-family: Arial;
-}
 
 ol {
     color: coral;
@@ -87,30 +83,47 @@ button:focus {
     background-color: azure;
 }
 
-#navBar {
+#navbar {
+
+    overflow: hidden;
     list-style-type: none;
     margin: 0;
     padding: 0;
     color: darkgray;
-    overflow: hidden;
     background-color: darkgray;
     position: fixed;
     top: 0;
     width: 100%;
-    border: 1px solid rgb(128, 128, 128);
-
+    border: 1px solid #e7e7e7;
 }
 
-.navBarEle {
+#navbar a {
+    float: left;
+    display: inline;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px;
+    text-decoration: none;
+}
+
+
+
+.sticky {
+    margin: auto;
+    position: fixed;
+    top: 0;
+    width: 100%;
+}
+
+.content {
     display: inline;
     float: left;
-    display: block;
     padding: 8px;
     background-color: lightgray;
     color: black;
 }
 
-.navBarEle a:hover {
+.content a:hover {
     background-color: darkgray;
     color: pink;
 }

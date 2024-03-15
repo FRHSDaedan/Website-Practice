@@ -10,11 +10,11 @@
 
 <body class = "body">
 
-<ul id = "navBar" class = "active">
-    <li class = "navBarEle"><a href = "">TEST</a></li>
-    <li class = "navBarEle"><a href = "subPageBlank">TEST</a></li>
-    <li class = "navBarEle"><a href = "subPageBlank">TEST</a></li>
-    <li class = "navBarEle"><a href = "subPageBlank">TEST</a></li>
+<ul id = "navBar"  class = "sticky">
+    <li class = "content"><a href = "">TEST</a></li>
+    <li class = "content"><a href = "subPageBlank">TEST</a></li>
+    <li class = "content"><a href = "subPageBlank">TEST</a></li>
+    <li class = "content"><a href = "subPageBlank">TEST</a></li>
 </ul>
 
 <h1>Welcome to Milla's Test Website</h1>
@@ -33,20 +33,17 @@
 <br>These don't work (used for testing purposes):
 <button onclick = "incrementValue()">Increment Value</button>
 <button onclick = "saveData()">Save Data</button>
-<button onclick = "showData()">Show Data</button>
+<button onclick = "showData()" id="showDataId">Show Data</button>
 
 
 <br><br>Here are some of my favorite fruits in no particular order:
 <ul> <li>strawberry</li> <li>watermelon</li> <li>grapes</li> </ul>
 Some of my favorite desserts too:
 <ol><li>cheesecake</li> <li>cinnabon</li> <li>churros</li></ol>
-<button onclick = "changeStyle()">Super Style Changing Button!</button>
+<button onclick = "changeStyle()" id="styleChangeButton">Super Style Changing Button!</button>
 
-<br><br>Random list to fill the requriement:
 
-<ul><li>look at this</li><ol><li>testing ordered list in an unordered list</li><li>still testing it</li></ol><li>look look</li><ol><li>anotha one!!!!</li><li>and anotha one!!!</li></ol><li>bang bang</li></ul>
-
-<br><br> Testing Inputs: <br>
+<br> Testing Inputs: <br>
 
 <form>
     <br><label>
@@ -84,7 +81,7 @@ Some of my favorite desserts too:
 <br><br>Very important spaghetti information:
 <dl>spaghetti <dd>noodles with sauce n stuff and stuff</dd><dt>meatballs</dt> <dd>very delicious food in the spaghetti</dd></dl>
 
-<button onclick = "textChanger()" class = "center" id = "firstButton">Click to change what this button says!</button>
+<button onclick = "textChanger()" class = "center" id = "firstButton">Click to change what this button says! (Click Twice)</button>
 
 <br><h3>Follow me on all my socials!</h3>
 <ul><li><a href="https://www.youtube.com/watch?v=dQw4w9WgXcQ" target = "_blank"><div>Instagram</div></a></li><li><a href="https://www.youtube.com/watch?v=dQw4w9WgXcQ" target = "_blank"><div>Snapchat</div></a></li><li><a href="https://www.youtube.com/watch?v=dQw4w9WgXcQ" target = "_blank"><div>Twitter</div></a></li><li><a href="https://www.youtube.com/watch?v=dQw4w9WgXcQ" target = "_blank"><div>Tiktok</div></a></li><li><a href="https://www.youtube.com/watch?v=dQw4w9WgXcQ" target = "_blank"><div>YouTube</div></a></li></ul>
@@ -138,9 +135,11 @@ Here is a fun website to mess around with:
 
 <pre>&nbsp</pre>
 
+<!--<button onclick="backgroundChanger()">change the background color</button>-->
+
 Shameless plug for my homies:
-<br><a href="https://aidann-w.github.io/WebsitePractice/"><div>Make sure to check out my buddy Aidan's website!</div></a></p>
-<br><a href="https://clintonwessner.github.io/Website-Practice/"><div>Make sure to check out my buddy Clinton's spongebob-themed website!</div></a></p>
+<br><a href="https://aidann-w.github.io/WebsitePractice/"><button>Make sure to check out my buddy Aidan's website!</button></a>
+<br><a href="https://clintonwessner.github.io/Website-Practice/"><button>Make sure to check out my buddy Clinton's spongebob-themed website!</button></a>
 
 <h3>this was an aedan milla production 🫡‼️</h3>
 

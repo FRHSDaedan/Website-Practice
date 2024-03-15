@@ -1,6 +1,6 @@
 function textChanger() {
     let elem = document.getElementById("firstButton");
-    if(elem.innerHTML == "Click to change what this button says!") elem.innerHTML = "Hello!";
+    if(elem.innerHTML === "Click to change what this button says! (Click Twice)") elem.innerHTML = "Hello!";
     else elem.innerHTML = "Goodbye!";
 }
 
@@ -14,25 +14,28 @@ function blankRedirect(){
     window.location.href = "subPageBlank";
 }
 
-function changeStyle() {
 
+function changeStyle() {
+        document.getElementById("styleChangeButton").style.color = "blue";
+        document.getElementById("styleChangeButton").style.backgroundColor = "red";
 }
 
+// function backgroundChanger
 function incrementValue() {
-    const ageName = {name: "Aedan", age: "16"};
-    const myJSON = JSON.stringify(ageName);
-    localStorage.setItem("test", myJSON);
+    let firstVal = 0;
+    localStorage.setItem('item', JSON.stringify(firstVal++));
 }
 
 function saveData() {
-    let text = localStorage.getItem("test");
-    let ageName2 = JSON.parse(text)
-    document.getElementById =("test1").innerHTML = ageName2.name;
+    localStorage.getItem('item');
 }
 
 function showData() {
-    let elem2 = document.getElementById("otherButton");
-    if(elem2.innerHTML === "Show Data") elem2.innerHTML = ageName2;
+    const data = JSON.parse('item')
 }
 
-
+//function textChanger() {
+//     let elem = document.getElementById("showDataId");
+//     if(elem.innerHTML == "Click to change what this button says!") elem.innerHTML = "Hello!";
+//     else elem.innerHTML = "Goodbye!";
+// }
