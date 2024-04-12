@@ -12,6 +12,10 @@
     border-color: darkgray;
 }
 
+.body2 {
+    background-color: darkslategrey;
+}
+
 /* testing a comment */
 
 h1 {
@@ -132,5 +136,43 @@ button:focus {
     background-color: black;
 }
 
+.navigationBar {
+    list-style-type: none;
+    margin: 0 auto;
+    padding: 0;
+    overflow: hidden;
+    background-color: rgb(177, 148, 112);
+    position: fixed;
+    top: 0;
+    width: 100%;
+    font-family: "Lucida Handwriting";
+}
+
+.navigationBar li {
+    float: left;
+}
+
+.navigationBar li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 23px 25px;
+    text-decoration: none;
+}
+
+.navigationBar li a:hover {
+    background-color: rgb(118, 69, 59);
+}
+
+.active {
+    background-color: saddlebrown;
+}
+
+.typeTable {
+    padding-top: 2px;
+    padding-bottom: 2px;
+    padding-left: 3px;
+    padding-right: 3px;
+}
 
 
