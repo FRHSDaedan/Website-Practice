@@ -175,4 +175,94 @@ button:focus {
     padding-right: 3px;
 }
 
+.normal {
+    background-color: tan;
+    color: whitesmoke;
+}
+
+.fire {
+    background-color: orange;
+    color: whitesmoke;
+}
+
+.water {
+    background-color: dodgerblue;
+    color: whitesmoke;
+}
+
+.grass {
+    background-color: forestgreen;
+    color: whitesmoke;
+}
+
+.electric {
+    background-color: yellow;
+    color: black;
+}
+
+.ice {
+    background-color: lightblue;
+    color: black;
+}
+
+.fighting {
+    background-color: darkred;
+    color: whitesmoke;
+}
+
+.poison {
+    background-color: purple;
+    color: whitesmoke;
+}
+
+.ground {
+    background-color: saddlebrown;
+    color: whitesmoke;
+}
+
+.flying {
+    background-color: skyblue;
+    color: black;
+}
+
+.psychic {
+    background-color: deeppink;
+    color: whitesmoke;
+}
+
+.bug {
+    background-color: darkolivegreen;
+    color: whitesmoke;
+}
+
+.rock {
+    background-color: darkgoldenrod;
+    color: whitesmoke;
+}
+
+.ghost {
+    background-color: mediumpurple;
+    color: whitesmoke;
+}
+
+.dragon {
+    background-color: darkslateblue;
+    color: whitesmoke;
+}
+
+.dark {
+    background-color: black;
+    color: white;
+}
+
+.steel {
+    background-color: lightgray;
+    color: black;
+}
+
+.fairy {
+    background-color: lightpink;
+    color: whitesmoke;
+}
+
 

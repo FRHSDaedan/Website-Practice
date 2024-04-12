@@ -13,21 +13,21 @@
 <!-- this is my first time using html! -->
 
 <body class = "body2">
-<ul class = "navigationBar">
-    <li>
-        <a href = "subPageBlank">blank subpage?!</a>
+<ul class = "nav">
+    <li class = "nav-item">
+        <a href = "subPageBlank" class = "nav-link">Blank Subpage?!</a>
     </li>
-    <li>
-        <a href = "subPageBlank">blank subpage?!</a>
+    <li class = "nav-item">
+        <a href = "subPageBlank" class = "nav-link">Blank Subpage?!</a>
     </li>
-    <li>
-        <a href = "subPageBlank">blank subpage?!</a>
+    <li class = "nav-item">
+        <a href = "subPageBlank" class = "nav-link">Blank Subpage?!</a>
     </li>
-    <li>
-        <a href = "subPageBlank">blank subpage?!</a>
+    <li class = "nav-item">
+        <a href = "subPageBlank" class = "nav-link">Blank Subpage?!</a>
     </li>
-    <li>
-        <a href = "subPageBlank">blank subpage?!</a>
+    <li class = "nav-item">
+        <a href = "subPageBlank" class = "nav-link">Blank Subpage?!</a>
     </li>
 
 </ul>
@@ -191,6 +191,20 @@
         Quick Tip: Use <kbd>Ctrl</kbd> + <kbd>D</kbd> to bookmark something on your browser! (bookmark this website fs 😉)
     </p>
     <br><br>
+
+    <div class="dropdown">
+        <button type="button" class="btn btn-danger dropdown-toggle" data-bs-toggle="dropdown">
+            Dropdown button
+        </button>
+        <ul class="dropdown-menu">
+            <li><a class="dropdown-item" href="#">Link 1</a></li>
+            <li><a class="dropdown-item" href="#">Link 2</a></li>
+            <li><a class="dropdown-item" href="#">Link 3</a></li>
+        </ul>
+    </div>
+
+    <br><br>
+
     Here is a fun website to mess around with:
     <a href="https://www.youtube.com/watch?v=dQw4w9WgXcQ"><div>https://theuselessweb.com/ </div></a>
 
@@ -211,65 +225,66 @@
 
     <table class = "table-bordered table-responsive-xl">
         <tr>
-            <th></th><th class = typeTable>Normal</th> <th class = typeTable>Fire</th> <th class = typeTable>Water</th> <th class = typeTable>Grass</th> <th class = typeTable>Electric</th> <th class = typeTable>Ice</th> <th class = typeTable>Fighting</th> <th class = typeTable>Poison</th> <th class = typeTable>Ground</th> <th class = typeTable>Flying</th> <th class = typeTable>Psychic</th> <th class = typeTable>Bug</th> <th class = typeTable>Rock</th> <th class = typeTable>Ghost</th> <th class = typeTable>Dragon</th> <th class = typeTable>Dark</th> <th class = typeTable>Steel</th> <th class = typeTable>Fairy</th>
+            <th></th><th class = "typeTable normal">Normal</th> <th class = "typeTable fire">Fire</th> <th class = "typeTable water">Water</th> <th class = "typeTable grass">Grass</th> <th class = "typeTable electric">Electric</th> <th class = "typeTable ice">Ice</th> <th class = "typeTable fighting">Fighting</th> <th class = "typeTable poison">Poison</th> <th class = "typeTable ground">Ground</th> <th class = "typeTable flying">Flying</th> <th class = "typeTable psychic">Psychic</th> <th class = "typeTable bug">Bug</th> <th class = "typeTable rock">Rock</th> <th class = "typeTable ghost">Ghost</th> <th class = "typeTable dragon">Dragon</th> <th class = "typeTable dark">Dark</th> <th class = "typeTable steel">Steel</th> <th class = "typeTable fairy">Fairy</th>
         </tr>
         <tr>
-            <th class = typeTable>Normal</th> <th class = typeTable></th> <th class = typeTable></th> <th class = typeTable></th> <th class = typeTable></th> <th class = typeTable></th> <th class = typeTable></th> <th class = typeTable></th> <th class = typeTable></th> <th class = typeTable></th> <th class = typeTable></th> <th class = typeTable></th> <th class = typeTable></th> <th class = typeTable></th> <th class = typeTable></th> <th class = typeTable></th> <th class = typeTable></th> <th class = typeTable></th><th class = typeTable></th>
+            <th class = "typeTable normal">Normal</th> <th class = typeTable></th> <th class = typeTable></th> <th class = typeTable></th> <th class = typeTable></th> <th class = typeTable></th> <th class = typeTable></th> <th class = typeTable></th> <th class = typeTable></th> <th class = typeTable></th> <th class = typeTable></th> <th class = typeTable></th> <th class = typeTable></th> <th class = typeTable>1/2x</th> <th class = typeTable>0x</th> <th class = typeTable></th> <th class = typeTable></th> <th class = typeTable>1/2x</th><th class = typeTable></th>
         </tr>
         <tr>
-            <th class = typeTable>Fire</th> <th class = typeTable></th> <th class = typeTable></th> <th class = typeTable></th> <th class = typeTable></th> <th class = typeTable></th> <th class = typeTable></th> <th class = typeTable></th> <th class = typeTable></th> <th class = typeTable></th> <th class = typeTable></th> <th class = typeTable></th> <th class = typeTable></th> <th class = typeTable></th> <th class = typeTable></th> <th class = typeTable></th> <th class = typeTable></th> <th class = typeTable></th><th class = typeTable></th>
+            <th class = "typeTable fire">Fire</th> <th class = typeTable></th> <th class = typeTable>1/2x</th> <th class = typeTable>1/2x</th> <th class = typeTable>2x</th> <th class = typeTable></th> <th class = typeTable>2x</th> <th class = typeTable></th> <th class = typeTable></th> <th class = typeTable></th> <th class = typeTable></th> <th class = typeTable></th> <th class = typeTable>2x</th> <th class = typeTable>1/2x</th> <th class = typeTable></th> <th class = typeTable>1/2x</th> <th class = typeTable></th> <th class = typeTable>2x</th><th class = typeTable></th>
         </tr>
         <tr>
-            <th class = typeTable>Water</th> <th class = typeTable></th> <th class = typeTable></th> <th class = typeTable></th> <th class = typeTable></th> <th class = typeTable></th> <th class = typeTable></th> <th class = typeTable></th> <th class = typeTable></th> <th class = typeTable></th> <th class = typeTable></th> <th class = typeTable></th> <th class = typeTable></th> <th class = typeTable></th> <th class = typeTable></th> <th class = typeTable></th> <th class = typeTable></th> <th class = typeTable></th><th class = typeTable></th>
+            <th class = "typeTable water">Water</th> <th class = typeTable></th> <th class = typeTable>2x</th> <th class = typeTable>1/2x</th> <th class = typeTable>1/2x</th> <th class = typeTable></th> <th class = typeTable></th> <th class = typeTable></th> <th class = typeTable></th> <th class = typeTable>2x</th> <th class = typeTable></th> <th class = typeTable></th> <th class = typeTable></th> <th class = typeTable>2x</th> <th class = typeTable></th> <th class = typeTable>1/2x</th> <th class = typeTable></th> <th class = typeTable></th><th class = typeTable></th>
         </tr>
         <tr>
-            <th class = typeTable>Grass</th> <th class = typeTable></th> <th class = typeTable></th> <th class = typeTable></th> <th class = typeTable></th> <th class = typeTable></th> <th class = typeTable></th> <th class = typeTable></th> <th class = typeTable></th> <th class = typeTable></th> <th class = typeTable></th> <th class = typeTable></th> <th class = typeTable></th> <th class = typeTable></th> <th class = typeTable></th> <th class = typeTable></th> <th class = typeTable></th> <th class = typeTable></th><th class = typeTable></th>
+            <th class = "typeTable grass">Grass</th> <th class = typeTable></th> <th class = typeTable>1/2x</th> <th class = typeTable>2x</th> <th class = typeTable>1/2x</th> <th class = typeTable></th> <th class = typeTable></th> <th class = typeTable></th> <th class = typeTable>1/2x</th> <th class = typeTable>2x</th> <th class = typeTable>1/2x</th> <th class = typeTable></th> <th class = typeTable>1/2x</th> <th class = typeTable>2x</th> <th class = typeTable></th> <th class = typeTable>1/2x</th> <th class = typeTable></th> <th class = typeTable>1/2x</th><th class = typeTable></th>
         </tr>
         <tr>
-            <th class = typeTable>Electric</th> <th class = typeTable></th> <th class = typeTable></th> <th class = typeTable></th> <th class = typeTable></th> <th class = typeTable></th> <th class = typeTable></th> <th class = typeTable></th> <th class = typeTable></th> <th class = typeTable></th> <th class = typeTable></th> <th class = typeTable></th> <th class = typeTable></th> <th class = typeTable></th> <th class = typeTable></th> <th class = typeTable></th> <th class = typeTable></th> <th class = typeTable></th><th class = typeTable></th>
+            <th class = "typeTable electric">Electric</th> <th class = typeTable></th> <th class = typeTable></th> <th class = typeTable>2x</th> <th class = typeTable>1/2x</th> <th class = typeTable>1/2x</th> <th class = typeTable></th> <th class = typeTable></th> <th class = typeTable></th> <th class = typeTable>0x</th> <th class = typeTable>2x</th> <th class = typeTable></th> <th class = typeTable></th> <th class = typeTable></th> <th class = typeTable></th> <th class = typeTable>1/2x</th> <th class = typeTable></th> <th class = typeTable></th><th class = typeTable></th>
         </tr>
         <tr>
-            <th class = typeTable>Ice</th> <th class = typeTable></th> <th class = typeTable></th> <th class = typeTable></th> <th class = typeTable></th> <th class = typeTable></th> <th class = typeTable></th> <th class = typeTable></th> <th class = typeTable></th> <th class = typeTable></th> <th class = typeTable></th> <th class = typeTable></th> <th class = typeTable></th> <th class = typeTable></th> <th class = typeTable></th> <th class = typeTable></th> <th class = typeTable></th> <th class = typeTable></th><th class = typeTable></th>
+            <th class = "typeTable ice">Ice</th> <th class = typeTable></th> <th class = typeTable>1/2x</th> <th class = typeTable>1/2x</th> <th class = typeTable>2x</th> <th class = typeTable></th> <th class = typeTable>1/2x</th> <th class = typeTable></th> <th class = typeTable></th> <th class = typeTable>2x</th> <th class = typeTable>2x</th> <th class = typeTable></th> <th class = typeTable></th> <th class = typeTable></th> <th class = typeTable></th> <th class = typeTable>2x</th> <th class = typeTable></th> <th class = typeTable>1/2x</th><th class = typeTable></th>
         </tr>
         <tr>
-            <th class = typeTable>Fighting</th> <th class = typeTable></th> <th class = typeTable></th> <th class = typeTable></th> <th class = typeTable></th> <th class = typeTable></th> <th class = typeTable></th> <th class = typeTable></th> <th class = typeTable></th> <th class = typeTable></th> <th class = typeTable></th> <th class = typeTable></th> <th class = typeTable></th> <th class = typeTable></th> <th class = typeTable></th> <th class = typeTable></th> <th class = typeTable></th> <th class = typeTable></th><th class = typeTable></th>
+            <th class = "typeTable fighting">Fighting</th> <th class = typeTable>2x</th> <th class = typeTable></th> <th class = typeTable></th> <th class = typeTable></th> <th class = typeTable></th> <th class = typeTable>2x</th> <th class = typeTable></th> <th class = typeTable>1/2x</th> <th class = typeTable></th> <th class = typeTable>1/2x</th> <th class = typeTable>1/2x</th> <th class = typeTable>1/2x</th> <th class = typeTable>2x</th> <th class = typeTable>0x</th> <th class = typeTable></th> <th class = typeTable>2x</th> <th class = typeTable>2x</th><th class = typeTable>1/2x</th>
         </tr>
         <tr>
-            <th class = typeTable>Poison</th> <th class = typeTable></th> <th class = typeTable></th> <th class = typeTable></th> <th class = typeTable></th> <th class = typeTable></th> <th class = typeTable></th> <th class = typeTable></th> <th class = typeTable></th> <th class = typeTable></th> <th class = typeTable></th> <th class = typeTable></th> <th class = typeTable></th> <th class = typeTable></th> <th class = typeTable></th> <th class = typeTable></th> <th class = typeTable></th> <th class = typeTable></th><th class = typeTable></th>
+            <th class = "typeTable poison">Poison</th> <th class = typeTable></th> <th class = typeTable></th> <th class = typeTable></th> <th class = typeTable>2x</th> <th class = typeTable></th> <th class = typeTable></th> <th class = typeTable></th> <th class = typeTable>1/2x</th> <th class = typeTable>1/2x</th> <th class = typeTable></th> <th class = typeTable></th> <th class = typeTable></th> <th class = typeTable>1/2x</th> <th class = typeTable>1/2x</th> <th class = typeTable></th> <th class = typeTable></th> <th class = typeTable>0x</th><th class = typeTable>2x</th>
         </tr>
         <tr>
-            <th class = typeTable>Grass</th> <th class = typeTable></th> <th class = typeTable></th> <th class = typeTable></th> <th class = typeTable></th> <th class = typeTable></th> <th class = typeTable></th> <th class = typeTable></th> <th class = typeTable></th> <th class = typeTable></th> <th class = typeTable></th> <th class = typeTable></th> <th class = typeTable></th> <th class = typeTable></th> <th class = typeTable></th> <th class = typeTable></th> <th class = typeTable></th> <th class = typeTable></th><th class = typeTable></th>
+            <th class = "typeTable ground">Ground</th> <th class = typeTable></th> <th class = typeTable>2x</th> <th class = typeTable></th> <th class = typeTable>1/2x</th> <th class = typeTable>2x</th> <th class = typeTable></th> <th class = typeTable></th> <th class = typeTable>2x</th> <th class = typeTable></th> <th class = typeTable>0x</th> <th class = typeTable></th> <th class = typeTable>1/2x</th> <th class = typeTable>2x</th> <th class = typeTable></th> <th class = typeTable></th> <th class = typeTable></th> <th class = typeTable>2x</th><th class = typeTable></th>
         </tr>
         <tr>
-            <th class = typeTable>Flying</th> <th class = typeTable></th> <th class = typeTable></th> <th class = typeTable></th> <th class = typeTable></th> <th class = typeTable></th> <th class = typeTable></th> <th class = typeTable></th> <th class = typeTable></th> <th class = typeTable></th> <th class = typeTable></th> <th class = typeTable></th> <th class = typeTable></th> <th class = typeTable></th> <th class = typeTable></th> <th class = typeTable></th> <th class = typeTable></th> <th class = typeTable></th><th class = typeTable></th>
+            <th class = "typeTable flying">Flying</th> <th class = typeTable></th> <th class = typeTable></th> <th class = typeTable></th> <th class = typeTable>2x</th> <th class = typeTable>1/2x</th> <th class = typeTable></th> <th class = typeTable>2x</th> <th class = typeTable></th> <th class = typeTable></th> <th class = typeTable></th> <th class = typeTable></th> <th class = typeTable>2x</th> <th class = typeTable>1/2x</th> <th class = typeTable></th> <th class = typeTable></th> <th class = typeTable></th> <th class = typeTable>1/2x</th><th class = typeTable></th>
         </tr>
         <tr>
-            <th class = typeTable>Psychic</th> <th class = typeTable></th> <th class = typeTable></th> <th class = typeTable></th> <th class = typeTable></th> <th class = typeTable></th> <th class = typeTable></th> <th class = typeTable></th> <th class = typeTable></th> <th class = typeTable></th> <th class = typeTable></th> <th class = typeTable></th> <th class = typeTable></th> <th class = typeTable></th> <th class = typeTable></th> <th class = typeTable></th> <th class = typeTable></th> <th class = typeTable></th><th class = typeTable></th>
+            <th class = "typeTable psychic">Psychic</th> <th class = typeTable></th> <th class = typeTable></th> <th class = typeTable></th> <th class = typeTable></th> <th class = typeTable></th> <th class = typeTable></th> <th class = typeTable>2x</th> <th class = typeTable>2x</th> <th class = typeTable></th> <th class = typeTable></th> <th class = typeTable>1/2x</th> <th class = typeTable></th> <th class = typeTable></th> <th class = typeTable></th> <th class = typeTable></th> <th class = typeTable>0x</th> <th class = typeTable>1/2x</th><th class = typeTable></th>
         </tr>
         <tr>
-            <th class = typeTable>Bug</th> <th class = typeTable></th> <th class = typeTable></th> <th class = typeTable></th> <th class = typeTable></th> <th class = typeTable></th> <th class = typeTable></th> <th class = typeTable></th> <th class = typeTable></th> <th class = typeTable></th> <th class = typeTable></th> <th class = typeTable></th> <th class = typeTable></th> <th class = typeTable></th> <th class = typeTable></th> <th class = typeTable></th> <th class = typeTable></th> <th class = typeTable></th><th class = typeTable></th>
+            <th class = "typeTable bug">Bug</th> <th class = typeTable></th> <th class = typeTable>1/2x</th> <th class = typeTable></th> <th class = typeTable>2x</th> <th class = typeTable></th> <th class = typeTable></th> <th class = typeTable>1/2x</th> <th class = typeTable>1/2x</th> <th class = typeTable></th> <th class = typeTable>1/2x</th> <th class = typeTable>2x</th> <th class = typeTable></th> <th class = typeTable></th> <th class = typeTable>1/2x</th> <th class = typeTable></th> <th class = typeTable2x></th> <th class = typeTable>1/2x</th><th class = typeTable>1/2x</th>
         </tr>
         <tr>
-            <th class = typeTable>Rock</th> <th class = typeTable></th> <th class = typeTable></th> <th class = typeTable></th> <th class = typeTable></th> <th class = typeTable></th> <th class = typeTable></th> <th class = typeTable></th> <th class = typeTable></th> <th class = typeTable></th> <th class = typeTable></th> <th class = typeTable></th> <th class = typeTable></th> <th class = typeTable></th> <th class = typeTable></th> <th class = typeTable></th> <th class = typeTable></th> <th class = typeTable></th><th class = typeTable></th>
+            <th class = "typeTable rock">Rock</th> <th class = typeTable></th> <th class = typeTable>2x</th> <th class = typeTable></th> <th class = typeTable></th> <th class = typeTable></th> <th class = typeTable>2x</th> <th class = typeTable>1/2x</th> <th class = typeTable></th> <th class = typeTable>1/2x</th> <th class = typeTable>2x</th> <th class = typeTable></th> <th class = typeTable>2x</th> <th class = typeTable></th> <th class = typeTable></th> <th class = typeTable></th> <th class = typeTable></th> <th class = typeTable>1/2x</th><th class = typeTable></th>
         </tr>
         <tr>
-            <th class = typeTable>Ghost</th> <th class = typeTable></th> <th class = typeTable></th> <th class = typeTable></th> <th class = typeTable></th> <th class = typeTable></th> <th class = typeTable></th> <th class = typeTable></th> <th class = typeTable></th> <th class = typeTable></th> <th class = typeTable></th> <th class = typeTable></th> <th class = typeTable></th> <th class = typeTable></th> <th class = typeTable></th> <th class = typeTable></th> <th class = typeTable></th> <th class = typeTable></th><th class = typeTable></th>
+            <th class = "typeTable ghost">Ghost</th> <th class = typeTable>0x</th> <th class = typeTable></th> <th class = typeTable></th> <th class = typeTable></th> <th class = typeTable></th> <th class = typeTable></th> <th class = typeTable></th> <th class = typeTable></th> <th class = typeTable></th> <th class = typeTable></th> <th class = typeTable>2x</th> <th class = typeTable></th> <th class = typeTable></th> <th class = typeTable>2x</th> <th class = typeTable></th> <th class = typeTable>1/2x</th> <th class = typeTable></th><th class = typeTable></th>
         </tr>
         <tr>
-            <th class = typeTable>Dragon</th> <th class = typeTable></th> <th class = typeTable></th> <th class = typeTable></th> <th class = typeTable></th> <th class = typeTable></th> <th class = typeTable></th> <th class = typeTable></th> <th class = typeTable></th> <th class = typeTable></th> <th class = typeTable></th> <th class = typeTable></th> <th class = typeTable></th> <th class = typeTable></th> <th class = typeTable></th> <th class = typeTable></th> <th class = typeTable></th> <th class = typeTable></th><th class = typeTable></th>
+            <th class = "typeTable dragon">Dragon</th> <th class = typeTable></th> <th class = typeTable></th> <th class = typeTable></th> <th class = typeTable></th> <th class = typeTable></th> <th class = typeTable></th> <th class = typeTable></th> <th class = typeTable></th> <th class = typeTable></th> <th class = typeTable></th> <th class = typeTable></th> <th class = typeTable></th> <th class = typeTable></th> <th class = typeTable></th> <th class = typeTable>2x</th> <th class = typeTable></th> <th class = typeTable>1/2x</th><th class = typeTable>0x</th>
         </tr>
         <tr>
-            <th class = typeTable>Dark</th> <th class = typeTable></th> <th class = typeTable></th> <th class = typeTable></th> <th class = typeTable></th> <th class = typeTable></th> <th class = typeTable></th> <th class = typeTable></th> <th class = typeTable></th> <th class = typeTable></th> <th class = typeTable></th> <th class = typeTable></th> <th class = typeTable></th> <th class = typeTable></th> <th class = typeTable></th> <th class = typeTable></th> <th class = typeTable></th> <th class = typeTable></th><th class = typeTable></th>
+            <th class = "typeTable dark">Dark</th> <th class = typeTable></th> <th class = typeTable></th> <th class = typeTable></th> <th class = typeTable></th> <th class = typeTable></th> <th class = typeTable></th> <th class = typeTable>1/2x</th> <th class = typeTable></th> <th class = typeTable></th> <th class = typeTable></th> <th class = typeTable>2x</th> <th class = typeTable></th> <th class = typeTable></th> <th class = typeTable>2x</th> <th class = typeTable></th> <th class = typeTable>1/2x</th> <th class = typeTable></th><th class = typeTable>1/2x</th>
         </tr>
         <tr>
-            <th class = typeTable>Steel</th> <th class = typeTable></th> <th class = typeTable></th> <th class = typeTable></th> <th class = typeTable></th> <th class = typeTable></th> <th class = typeTable></th> <th class = typeTable></th> <th class = typeTable></th> <th class = typeTable></th> <th class = typeTable></th> <th class = typeTable></th> <th class = typeTable></th> <th class = typeTable></th> <th class = typeTable></th> <th class = typeTable></th> <th class = typeTable></th> <th class = typeTable></th><th class = typeTable></th>
+            <th class = "typeTable steel">Steel</th> <th class = typeTable></th> <th class = typeTable>1/2x</th> <th class = typeTable>1/2x</th> <th class = typeTable></th> <th class = typeTable>1/2x</th> <th class = typeTable>2x</th> <th class = typeTable></th> <th class = typeTable></th> <th class = typeTable></th> <th class = typeTable></th> <th class = typeTable></th> <th class = typeTable></th> <th class = typeTable>2x</th> <th class = typeTable></th> <th class = typeTable></th> <th class = typeTable></th> <th class = typeTable>1/2x</th><th class = typeTable>2x</th>
         </tr>
         <tr>
-            <th class = typeTable>Fairy</th> <th class = typeTable></th> <th class = typeTable></th> <th class = typeTable></th> <th class = typeTable></th> <th class = typeTable></th> <th class = typeTable></th> <th class = typeTable></th> <th class = typeTable></th> <th class = typeTable></th> <th class = typeTable></th> <th class = typeTable></th> <th class = typeTable></th> <th class = typeTable></th> <th class = typeTable></th> <th class = typeTable></th> <th class = typeTable></th> <th class = typeTable></th><th class = typeTable></th>
+            <th class = "typeTable fairy">Fairy</th> <th class = typeTable></th> <th class = typeTable>1/2x</th> <th class = typeTable></th> <th class = typeTable></th> <th class = typeTable></th> <th class = typeTable></th> <th class = typeTable>2x</th> <th class = typeTable>1/2x</th> <th class = typeTable></th> <th class = typeTable></th> <th class = typeTable></th> <th class = typeTable></th> <th class = typeTable></th> <th class = typeTable></th> <th class = typeTable>2x</th> <th class = typeTable>2x</th> <th class = typeTable>1/2x</th><th class = typeTable></th>
         </tr>
 
 
     </table>
+    <h2>FOR THE TYPE CHART, THE DEFENDING TYPE IS ON TYPE, AND ATTACKING TYPE IS ON THE SIDE</h2>
 <br><br>
     Shameless plug for my homies:
     <br><a href="https://aidann-w.github.io/WebsitePractice/"><button>Make sure to check out my buddy Aidan's website!</button></a>
